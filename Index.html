@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro Pessoal</h1>
+        </header>
+        <form id="forIn">
+            <input id="NomeUs" type="text" placeholder="Nome">
+            <input id="Numero" type="number" placeholder="Telefone">
+            <button>Adicionar+</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th><h3>Nome</h3></th>
+                    <th><h3>Telefone</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="Nome">---</td>
+                    <td max="99999999999">---</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

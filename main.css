@@ -1,0 +1,49 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+body{
+    background-color: rgb(206, 230, 230);
+}
+
+.container{
+    display: grid;
+    place-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+tbody td{
+    text-align: center;
+}
+
+form input{
+    border: none;
+    border-bottom:black ;
+    border-bottom:solid;
+    background-color: #CEE6E6 ;
+    color:black;
+}
+
+form input:focus {
+    outline:none
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+tr td{
+    border-top:dotted;
+    border-color:#686868 ;
+}
+
+#Nome{    
+    border-right: dotted;
+    border-color: #686868;
+}
